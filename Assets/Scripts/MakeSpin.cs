@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MakeSpin : MonoBehaviour
 {
-    [SerializeField] private Vector3 rotation;
+    public Vector3 rotation;
     
     // Update is called once per frame
     void Update()
